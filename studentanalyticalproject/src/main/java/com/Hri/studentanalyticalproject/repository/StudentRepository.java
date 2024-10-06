@@ -1,4 +1,9 @@
 package com.Hri.studentanalyticalproject.repository;
 
-public class StudentRepository {
+import com.Hri.studentanalyticalproject.model.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentRepository extends JpaRepository<Student,Integer> {
 }
