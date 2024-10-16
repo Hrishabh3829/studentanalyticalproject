@@ -16,4 +16,4 @@ Front-End: React for a more dynamic interface.
 
 Security: Spring Security for role-based access (Admin and User).
 
-Data Visualization: Use Chart.js or Google Charts for report generation.(optional)
+Data Visualization: Use Chart.js or Google Charts for report generation (optional).
