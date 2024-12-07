@@ -5,12 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fca8d89f-6acc-4de1-a1c5-280f2dd34de2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/studentanalyticalproject/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/studentanalyticalproject/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailService/src/main/java/com/klef/jfsd/sdp/service/EmailVerificationServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailService/src/main/java/com/klef/jfsd/sdp/service/EmailVerificationServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EmailService/src/main/java/com/klef/jfsd/sdp/service/ForgotPasswordServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/EmailService/src/main/java/com/klef/jfsd/sdp/service/ForgotPasswordServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,6 +29,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2psp3preveEUeuYhDuUpUDbSVxk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,7 +59,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.StudentanalyticalprojectApplication">
     <configuration name="EmailServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="EmailService" />
@@ -80,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733564441195</updated>
       <workItem from="1733564442280" duration="1610000" />
-      <workItem from="1733566973673" duration="4194000" />
+      <workItem from="1733566973673" duration="8404000" />
     </task>
     <servers />
   </component>

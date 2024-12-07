@@ -82,7 +82,7 @@ public class ForgotPasswordServiceImpl implements ForgotPasswordService {
 				</head>
 				<body>
 				<p>Your password reset link is:</p>
-				<h2><a href="http://localhost:5173/forgot-password?email=%s&token=%s" >Reset password</a></h2>
+				<h2><a href="http://localhost:3000/forgot-password?email=%s&token=%s" >Reset password</a></h2>
 				<p>This link will expire in <u>1 hr</u>.</p>
 				</body>
 				</html>
@@ -96,7 +96,7 @@ public class ForgotPasswordServiceImpl implements ForgotPasswordService {
 			mimeMsgHelper.setSubject("Password Reset");
 			mimeMsgHelper.setTo(forgotPassword.getUserEmail());
 			mimeMsgHelper.setText(msg, true);
-//			javaMailSender.send(mimeMsg);
+			javaMailSender.send(mimeMsg);
 			
 			forgotPasswordRepo.save(forgotPassword);
 			return "Email sent Successfully!";
