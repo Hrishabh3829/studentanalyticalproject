@@ -30,6 +30,20 @@ public class Student {
     private String name;
     private String studentcourse;
 
+    public int getStudentmarks() {
+        return studentmarks;
+    }
+
+    public void setStudentmarks(int studentmarks) {
+        this.studentmarks = studentmarks;
+    }
+
+    private int studentmarks;
+
+
+
+
+
     public String getStudentcourse() {
         return studentcourse;
     }
