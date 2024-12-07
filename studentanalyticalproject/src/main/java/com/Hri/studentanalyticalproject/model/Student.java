@@ -6,8 +6,28 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
-
 public class Student {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    private String name;
+    private String studentcourse;
+    private int studentmarks;
+
+    // New field for attendance status
+    private String attendanceStatus;
+
+    // Getters and Setters
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
@@ -16,19 +36,13 @@ public class Student {
         this.name = name;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public String getStudentcourse() {
+        return studentcourse;
     }
 
-    public int getId() {
-        return id;
+    public void setStudentcourse(String studentcourse) {
+        this.studentcourse = studentcourse;
     }
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
-    private String name;
-    private String studentcourse;
 
     public int getStudentmarks() {
         return studentmarks;
@@ -38,17 +52,11 @@ public class Student {
         this.studentmarks = studentmarks;
     }
 
-    private int studentmarks;
-
-
-
-
-
-    public String getStudentcourse() {
-        return studentcourse;
+    public String getAttendanceStatus() {
+        return attendanceStatus;
     }
 
-    public void setStudentcourse(String studentcourse) {
-        this.studentcourse = studentcourse;
+    public void setAttendanceStatus(String attendanceStatus) {
+        this.attendanceStatus = attendanceStatus;
     }
 }
